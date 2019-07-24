@@ -1,0 +1,487 @@
+@media only screen and (max-width: 1300px){
+	/*======header======*/
+
+	header ul li { padding: 44px 20px!important;}
+	header ul li a { font-size: 16px!important;}
+
+	/*======EOFheader======*/
+
+	/*======Fonts======*/
+	.hero-title { font-size: 60px!important;}
+	.sec-title { font-size: 40px!important;}
+	.font-36 { font-size: 30px!important}
+	.benchmarks .top h3 { font-size: 35px!important;}
+	.tech .sec-blue-float .main-hldr > aside .temp-hldr .item ul li h4 { font-size: 50px!important;}
+
+	.about .vision .hldr h4 { font-size: 35px!important; letter-spacing: 1px!important; line-height: 60px!important;}
+	.about .vision .hldr h3 { font-size: 25px!important; letter-spacing: 2px!important;}
+
+	/*======EOFFonts======*/
+
+
+	/*=====Padding=====*/
+	.home .sec-1 .home-carousel article { padding: 30px!important; }
+	.sec-blue-float .main-hldr > article { padding: 80px 0px!important;}
+	.circle--sec .main-hldr > article { padding: 80px 30px 200px!important;}
+	.about .sec-blue-float .main-hldr > article { padding-right: 140px!important;}
+	.about .circle--sec .main-hldr > article { padding-bottom: 80px!important;}
+	.facilities .sec-blue-float .main-hldr > article .fac-list li .img-parent .img-hldr { padding-right: 35px!important;}
+	.facilities .sec-blue-float .main-hldr > article .fac-list li .img-parent .img-hldr:last-of-type { padding-right: 0px!important;}
+	.facilities .sec-blue-float .main-hldr > article .fac-list { min-height: auto!important;}
+ 	.tech .circle--sec .main-hldr > article { padding: 80px 30px!important;}
+ 	.privacy .sec-2 .wrp .main-hldr > article { padding: 40px 30px!important; padding-bottom: 102px!important;     min-height: auto!important;}
+	/*=====EOFPadding=====*/
+
+
+	/*=====width && Height=====*/
+	.home .sec-1 .home-carousel article { min-width: 450px!important; }
+	.home .sec-1 .home-carousel .owl-dots { min-width: 450px!important;}
+	footer .main-hldr > article .main-list > li:last-child ul li{ width: 100%!important;}
+	.about .benchmarks{ width: 400px!important;}
+	.about .benchmarks .content .overlap-img { width: 500px!important;}
+	.about .benchmarks .top .img-title { max-width: 60%!important;}
+	.about .circle--sec .main-hldr > article ul li { width: 30%!important; margin-bottom: 70px;}
+	.about .circle--sec .main-hldr > article ul li:last-child { margin-bottom: 0px!important;}
+	.facilities .sec-blue-float .main-hldr > article .fac-list li .img-parent .img-hldr  {width: 50%!important;}
+	.orca-loc .top .main-parent .left { width: calc(100% - 400px)!important;}
+	.orca-loc .top .main-parent .right { width: 400px!important;}
+	.tech .sec-blue-float .main-hldr{ min-height: auto!important;}
+	.services .circle--sec .main-hldr > article ul li { width: 27%!important;}
+	/*=====EOFWidth=====*/
+
+	
+	/*=====OTHERS=====*/
+	.sec-blue-float .main-hldr > article .hldr article .learn-more-blue { margin-top: 50px!important;}
+	footer .main-hldr > article .main-list > li:last-child ul li:first-child { margin-bottom: 20px;}
+
+	/*=====EOFOTHERS=====*/
+
+
+	/*=====BANNER=====*/
+
+	/*=====EOFBANNER=====*/
+	
+
+}
+
+
+@media only screen and (max-width: 1100px){
+	/*======header======*/
+	header ul li { padding: 44px 15px!important;}
+	/*======EOFheader======*/
+
+
+	/*======Fonts======*/
+	.hero-title { font-size: 50px!important;}
+	.home .sec-1 .home-carousel article p, .banner .hldr article .hero p { font-size: 25px!important; line-height: 33px!important;}
+	.tech .sec-blue-float .main-hldr > aside .temp-hldr .item ul li h4 { font-size: 40px!important;}
+	.tech .sec-blue-float .main-hldr > aside .temp-hldr .item ul li p { font-size: 18px!important; line-height: 28px!important;}
+
+	/*======EOFFonts======*/
+
+
+	/*=====Padding=====*/
+	.about .sec-blue-float .main-hldr > article { padding-right: 260px!important;}
+	.news-list .main-hldr > article { padding: 80px 30px!important;}
+	/*=====EOFPadding=====*/
+
+
+	/*=====width && Height=====*/
+	.sec-blue-float .main-hldr > article { width: calc(100% - 300px)!important;}
+	.sec-blue-float .main-hldr > aside { width: 300px!important;}
+
+	.circle--sec .main-hldr > article ul li, .about .circle--sec .main-hldr > article ul li { width: 47%!important; margin-bottom: 70px!important;}
+	.circle--sec .main-hldr > article ul li:last-child { margin-bottom: 0px!important;}
+	.about .circle--sec .main-hldr > article ul li:last-child, .about .circle--sec .main-hldr > article ul li:nth-last-child(2) { margin-bottom: 0px!important; }
+	.facilities .sec-blue-float .main-hldr > article .fac-list { width: calc(100% + 330px)!important;}
+	.faqs .sec-2 .hldr article ul li .item aside { max-width: 280px!important; justify-content: flex-start!important; padding-right: 15px!important;}
+	.faqs .sec-2 .hldr .white-bg { width: 335px!important;}
+	.faqs .sec-2 .hldr article ul li .item article { width: calc(100% - 280px)!important; padding-right: 0px!important;}
+	.faqs .sec-2 .hldr article ul li .item aside .img-hldr { height: 180px!important; max-width: 180px!important; transform: translate(0, 0)!important;}
+	.news-list .main-hldr > article .main-list > li .item aside { max-width: 260px!important; height: 180px!important;}
+	.news-list .main-hldr > article .main-list > li .item article { padding-left: 30px!important; width: calc(100% - 260px)!important}
+	.tech .sec-blue-float .main-hldr > aside .temp-hldr{ width: 200px!important;}
+	.video .main-hldr .blue-rec { width: 200px!important;}
+
+	.services .sec-blue-float .img-frame { max-width: 400px!important; height: 355px!important;}
+	.privacy .sec-2 .wrp .main-hldr > aside { width: 300px!important; padding-left: 15px!important;}
+	.privacy .sec-2 .wrp .main-hldr > article { width: calc(100% - 330px)!important;}
+	.privacy .sec-2 .wrp .main-hldr .box-blue  { right: 315px!important;}
+
+	/*=====EOFWidth=====*/
+
+
+
+	/*=====OTHERS=====*/
+	.benchmarks { top: 350px!important;}
+	.home .circle--sec .main-hldr > article h3, .home .circle--sec .main-hldr > article h3 + p { padding-right: 0px!important;}
+	.about .benchmarks { top: 25px!important;}
+
+	.faqs .sec-2 .hldr article ul li .item aside .img-hldr img{ transform: translate(35%, 0)!important;}
+	.faqs .sec-2 .hldr article ul li .item aside .circleface .circlemain { font-size: 25px!important; padding: 0px 10px!important;}
+	.services .circle--sec .main-hldr > article ul li { width: 47%!important;} 
+
+	/*=====EOFOTHERS=====*/
+
+
+
+	/*=====BANNER=====*/
+
+	/*=====EOFBANNER=====*/
+
+
+}
+
+
+@media only screen and (max-width: 999px){
+	/*======header======*/
+	header { padding: 10px 20px!important;  }
+	header aside { position: relative!important; top: 0!important; transform: translate(0, 0)!important; left: 0!important; z-index: 11!important;}
+	header aside img { max-width: 160px!important;}
+
+	header .menu-hldr { position: fixed; top: 0; width: 100%; height: 100%; background: #1dbfd8; left: 0; padding-top: 110px; width: 0; overflow: hidden; transition: 0.5s ease-in-out; z-index: 10;}
+	header ul li { width: 100%!important; padding: 15px 20px!important; text-align: center; opacity: 0;}
+	
+	
+	header .burger { display: block!important; z-index: 11!important}
+
+	header .menu-hldr.active { width: 100%; transition: 0.5s ease-in-out;}
+	header .menu-hldr > ul.listn { padding-left: 0px!important;}
+
+	/*======EOFheader======*/
+
+
+	/*======Fonts======*/
+	.benchmarks .content .parent .children h3 { font-size: 60px!important;}
+	.circle--sec .main-hldr > article .sliding-letters { font-size: 120px!important; line-height: 95px!important}
+
+	/*======EOFFonts======*/
+
+
+	/*=====Padding=====*/
+	.pad-70 { padding-left: 51px!important;}
+	.sec-blue-float .main-hldr > article{ padding: 70px 0px!important; width: 100%!important;}
+	.benchmarks .content { padding: 20px 30px!important;}
+	.circle--sec .main-hldr > article  {padding: 70px 30px 95px!important;}
+	.tech .circle--sec .main-hldr > article { padding: 70px 30px!important;}
+	.home .sec-4 .main-hldr { padding: 50px 30px!important;}
+	footer .main-hldr > aside ul li { padding: 20px 30px!important;}
+	footer .main-hldr > article { padding: 40px 30px!important;}
+	footer .main-hldr > article h3{ padding-right: 75px!important;}
+	.about .vision .hldr { padding: 50px 30px!important;}
+	.about .sec-blue-float .main-hldr > article { padding-right: 0px!important;}
+	.about .sec-blue-float .main-hldr > article .hldr article { padding: 0px 30px!important}
+	.about .circle--sec .main-hldr > article { padding-bottom: 70px!important;}
+	.facilities .sec-blue-float .main-hldr > article .fac-list li:last-child { padding: 0px!important; margin-top: 30px;}
+
+	.news-list .main-hldr > article { padding: 70px 30px!important;}
+	.tech .sec-blue-float .main-hldr > aside { padding: 50px 30px!important;}
+	.services .sec-blue-float .main-hldr > article .hldr article {     padding-top: 0px!important;
+    padding-left: 0px!important;
+    width: 100%!important;
+    padding-right: 0px!important;
+    padding: 0px 30px!important;
+    }
+    .services .sec-blue-float .img-frame { position: relative!important; top: 0!important; margin: 0 auto; z-index: 5!important; height: auto!important; padding: 30px!important}
+    .services .sec-blue-float .main-hldr > article { min-height: auto!important;}
+
+
+
+	/*=====EOFPadding=====*/
+
+
+
+	/*=====width && Height=====*/
+	.follow  { width: 51px!important;}
+	.follow ul { padding: 0px 10px!important;}
+	.sec-blue-float .main-hldr > article .bg-img .overlay{ width: 100%!important;}
+	.sec-blue-float .main-hldr > article .hldr aside .play-hldr img { width: 100%!important;}
+	.home .sec-4 .main-hldr .main-list > li:first-child { width: 100%!important; text-align: center!important; padding-top: 30px!important; padding-right: 40px!important; margin-bottom: 25px; padding-left: 40px!important;}
+	
+	.home .sec-4 .main-hldr .main-list > li:nth-child(2) { width: 100%!important; padding: 0px!important;  padding-top: 0px!important;}
+	.home .sec-4 .main-hldr .main-list > li:last-child { width: 100%!important; margin-top: 35px;}
+	footer .main-hldr > article { max-width: 100%!important;}
+	footer .main-hldr > aside { width: 100%!important; padding-top: 0px!important;}
+	footer .main-hldr { flex-direction: column-reverse!important;}
+	footer .main-hldr > article aside { width: 75px!important;}
+	.about .benchmarks .top .img-title{ max-width: 200px!important;}
+	.facilities .sec-blue-float .main-hldr > article .fac-list { width: 100%!important;}
+	.facilities .sec-blue-float .main-hldr > article .fac-list li:first-child, .facilities .sec-blue-float .main-hldr > article .fac-list li:last-child { width: 100%!important;}
+	.orca-loc .top .main-parent .left { width: calc(100% - 350px)!important; }
+	.orca-loc .top .main-parent .right { width: 350px!important;}
+	.news-list .main-hldr > article .pagination-hldr {     width: calc(100% - 87px);}
+	.tech .sec-blue-float .main-hldr > aside, .tech .sec-blue-float .main-hldr > aside .temp-hldr  { width: 100%!important;}
+
+	.services .sec-blue-float .main-hldr > article .hldr article .stripe-hldr { display: none!important}
+
+	/*=====EOFWidth=====*/
+
+
+
+
+
+	/*=====OTHERS=====*/
+	.sec-blue-float .main-hldr > article .hldr aside .play-hldr {    transform: translate(0px, 0)!important; float: none!important; margin: 0 auto; max-width: 100px!important; height: 100px!important;}
+	.sec-blue-float .main-hldr > article .hldr aside > a { text-align: center!important; transform: translate(0, 0)!important ; float: none!important; margin-top: 20px!important;}
+	.sec-blue-float .main-hldr > article .hldr aside .play-hldr { animation: none!important;}
+	.sec-blue-float .main-hldr > article .hldr aside .play-hldr::after{ display: none!important}
+	.benchmarks { position: relative!important; top: 0!important; right: auto!important; left: 0!important; width: 100%!important}
+	.benchmarks .content .hldr { border: 1px solid #fff!important;}
+	.benchmarks .top span, .benchmarks .top::before, .benchmarks .top::after, .benchmarks .content::after, .benchmarks .content::before { display: none!important;}
+	.benchmarks .top h3 { max-width: 100%!important; width: 100%!important; max-width: 100%!important; letter-spacing: 2px!important; padding: 30px!important; padding-bottom: 10px!important; background: #1dbfd8!important;}
+	.home footer::after { left: calc(19% + 43px)!important; }
+	.about .benchmarks { width: 100%!important; top: 0!important;}
+	.about .benchmarks .top { padding: 30px; background: #1a1e1f;}
+	.about .benchmarks .content .overlap-img {width: 100%!important; transform: translate(0px, 0)!important;}
+	.about .benchmarks .content .hldr { margin-top: 0px!important;}
+	.facilities .sec-blue-float .main-hldr > article .fac-list li .img-parent { margin: 0px auto 30px!important;}
+	.tech .sec-blue-float .main-hldr > aside .temp-hldr  { left: 0!important;}
+	.tech .sec-blue-float .main-hldr > aside .temp-hldr .item ul { transform: translate(0, 0)!important;}
+	.video .main-hldr .blue-rec, .services .sec-blue-float .img-frame::before, .services .sec-blue-float .img-frame span:first-of-type, .services .sec-blue-float .img-frame::after, .services .sec-blue-float .img-frame span:last-of-type { display: none!important;}
+	.home .sec-blue-float.animated .main-hldr > article .hldr article .extended-line { display: none!important;}
+
+	/*=====EOFOTHERS=====*/
+
+
+
+
+	/*=====BANNER=====*/
+	.banner aside{ position: relative!important;}
+	.banner aside img { display: block!important;}
+	.about .banner aside{ background: transparent!important;}
+	.banner .hldr article{ max-width: 100%!important; height: auto!important; padding: 30px!important; border-bottom: 1px solid #fff}
+	.banner .hldr .overlay { background: rgb(26, 30, 31)!important}
+	/*=====EOFBANNER=====*/
+
+
+	/*=====BG=====*/
+	.home .sec-blue-float .main-hldr > article .bg-img, .about .sec-blue-float .main-hldr > article .bg-img, .facilities .sec-blue-float .main-hldr > article .bg-img, .tech .sec-blue-float .main-hldr > article > aside, .services .sec-blue-float .main-hldr > article .bg-img { background-attachment: inherit!important;}
+	/*=====BG=====*/
+}
+
+
+@media only screen and (max-width: 800px){
+	/*======header======*/
+	
+
+
+	/*======EOFheader======*/
+
+
+	/*======Fonts======*/
+	.hero-title { font-size: 45px!important; }
+	.sec-title { font-size: 35px!important;}
+	.font-36 { font-size: 30px!important; letter-spacing: 1px;}
+	.about .vision .hldr h4 { font-size: 30px!important; line-height: 50px!important;}
+	.acc .panel-cs p{ font-size: 18px!important; line-height: 28px!important;}
+	.acc .top h4 a { padding: 15px 55px!important; padding-left: 0px!important;}
+
+
+	/*======EOFFonts======*/
+
+
+	/*=====Padding=====*/
+	.sec-blue-float .main-hldr > article { padding: 50px 0px!important;}
+	.sec-blue-float .main-hldr > article .hldr article{ padding: 0px 20px!important;}
+	.sec-blue-float .main-hldr > article .hldr article h2{ padding-bottom: 25px!important;}
+	.circle--sec .main-hldr > article{ padding: 50px 20px 95px!important; width: 100%!important;}
+	.benchmarks .top h3 { padding: 30px 20px 10px!important;}
+	.benchmarks .content { padding: 20px!important;}
+	.home .sec-4 .main-hldr { padding: 50px 20px!important;}
+	footer .main-hldr > aside ul li{ padding: 15px 20px!important;}
+	footer .main-hldr > article, .about .vision .hldr { padding: 50px 20px!important;}
+	.footer-btm .hldr { padding: 20px!important}
+	.about .benchmarks .top { padding: 30px 20px!important;}
+	.about .sec-blue-float .main-hldr > article .hldr article { padding: 0px 20px!important;}
+	.about .circle--sec .main-hldr > article { padding-bottom: 50px!important;}
+	.banner .hldr article { padding: 30px 20px!important;}
+	.facilities .sec-blue-float .main-hldr > article .fac-list li .img-parent .img-hldr { padding-right: 15px!important;}
+	.orca-loc .top .main-parent .left { padding: 0px 20px!important;}
+	.orca-loc .top .sec-title { padding-bottom: 15px!important;}
+	.faqs .sec-2 .hldr { padding: 30px 20px 105px!important;}
+	.faqs .sec-2 .hldr article ul li { padding-left: 0px!important;}
+	.faqs .sec-2 .hldr article ul li .item aside { padding-right: 0px!important; margin: 0 auto 30px;}
+	.news-list .main-hldr > article { padding: 50px 20px!important;}
+	.news-list .main-hldr > article .main-list > li { padding-left: 0px!important;}
+	.tech .sec-blue-float .main-hldr > aside  { padding: 50px 20px!important;}
+
+	.tech .circle--sec .main-hldr > article  {padding: 50px 20px!important;}
+	.services .sec-blue-float .main-hldr > article .hldr article { padding: 0px 20px!important}
+	.services .sec-blue-float .img-frame{ padding: 30px 20px!important;}
+	.privacy .sec-2 .wrp .main-hldr > article{ padding: 30px 20px!important; width: 100%!important; min-height: auto!important; padding-bottom: 102px!Important;}
+	.acc .top h4 .angle-hldr{ right: 20px!important;}
+	/*=====EOFPadding=====*/
+
+
+
+	/*=====width && Height=====*/
+	.home .sec-1 .home-carousel article { width: 100%!important; min-width: auto!important; right: 0!important; bottom: 0!important; position: relative!important; padding: 30px 20px!important;}
+	.home .sec-1 .home-carousel aside { height: 450px!important;}
+	.sec-blue-float .main-hldr > article .hldr article { width: 100%!important; }
+	.sec-blue-float .main-hldr > article .hldr aside { margin: 0 auto 30px!important; max-width: 100%!important;}
+	.circle--sec .main-hldr > aside { width: 100%!important; padding: 10px 20px; background: #fff!important;}
+	.about .vision .hldr h3::after{ height: 4px!important}
+	.orca-loc .top .main-parent .left { width: 100%!important; padding-right: 30px!important}
+	.orca-loc .top .main-parent .right { width: 400px!important; margin: 0  auto!important; padding-right: 0px!important; padding-top: 50px!important; padding-left: 30px!important;}
+	.faqs .sec-2 .hldr article ul li .item article { width: 100%!important; padding-left: 0px!important;}
+	.faqs .sec-2 .hldr .white-bg { display: none!important;}
+	.faqs .sec-2 .hldr article ul li .item aside { max-width: 180px!important;}
+	.news-list .main-hldr > article .main-list > li .item article { width: 100%!important; padding-left: 0px!important;}
+	.news-list .main-hldr > article .main-list > li .item aside { max-width: 320px!important; height: 220px!important; margin: 0 auto 25px!important;}
+	.news-list .main-hldr > article .pagination-hldr { width: 100%!important; left: 0!important; padding: 10px 0px!important;     background: #1a1e1f;}
+	.pagination-hldr .parent .left{ width: 100%!important; margin-bottom: 15px; padding-right: 0px!important;} 
+	.pagination-hldr .parent .right{ width: 100%!important; padding-left: 0px!important;} 
+	.video .main-hldr > article .iframe-hldr iframe { height: 370px!important;}
+
+
+	/*=====EOFWidth=====*/
+
+
+
+
+
+	/*=====OTHERS=====*/
+	.home .sec-1 .home-carousel article .hldr { transform: translate(0, 0)!important;}
+	.home .sec-1 .home-carousel .owl-dots { position: relative!important; width: 100%!important; padding: 15px!important; right: 0!important; bottom: 0!important; min-width: auto!important}
+	.home .sec-1 .home-carousel article p br, .banner .hldr article .hero h3 br { display: none!important}
+	.sec-blue-float .main-hldr > article .hldr article h3 { margin-bottom: 10px!important; font-size: 25px!important;}
+	.sec-blue-float .main-hldr > article .hldr article h2::after, .orca-loc .top .sec-title::after { height: 4px!important;}
+	.sec-blue-float .main-hldr > article .hldr { flex-direction: column-reverse!important;}
+	.circle--sec .main-hldr > aside .learn-more-blue { position: relative!important; top: 0!important; transform: translate(0, 0)!important; left: 0!important; width: auto!important; }
+	.home .circle--sec .main-hldr > aside::before { display: none!important;}
+	.circle--sec .main-hldr > aside .learn-more-blue{ text-align: center!important}
+	.home .sec-4 .main-hldr::after { display: none!important;}
+	.home footer::after{ display: none!important;}
+	.orca-loc .top .drk-portion { display: none!important;}
+	.faqs .sec-2 .hldr article ul li .item aside .img-hldr { background: #fff!important;}
+	.news-list .main-hldr .side-white { display: none!important;}
+	.news-u footer  { margin-top: -50px!important;}
+	.pagination-hldr .parent .left h6 { color: #fff!important; font-size: 20px!important;}
+	.services .circle--sec .main-hldr > aside { display: none!important;}
+	.services .circle--sec .main-hldr > article .stripe-top{ display: none!important}
+	.services .circle--sec .main-hldr > article ul { margin-top: 60px!important;}
+	.privacy .sec-2 .wrp .main-hldr > aside, .privacy .sec-2 .wrp .main-hldr .box-blue { display: none!important;}
+	.back-to-tp { left: 50%!important; transform: translate(-50%, 0)!important;}
+
+	/*=====EOFOTHERS=====*/
+
+
+
+
+	/*=====BANNER=====*/
+
+	/*=====EOFBANNER=====*/
+
+
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+	/*======header======*/
+	
+
+
+	/*======EOFheader======*/
+
+
+	/*======Fonts======*/
+	.hero-title { font-size: 40px!important}
+	.sec-title { font-size: 30px!important; letter-spacing: 1px;}
+	.sec-blue-float .main-hldr > article .hldr article h3 { font-size: 22px!important; letter-spacing: 1px!important;}
+	.benchmarks .content .parent .children h3 { font-size: 50px!important}
+	.home .sec-1 .home-carousel article p, .banner .hldr article .hero p  {font-size: 20px!important; line-height: 28px!important;}
+	.learn-more-blue a { width: 100%!important; text-align: center!important;}
+	.circle--sec .main-hldr > article p { font-size: 20px;}
+	.about .vision .hldr h4{ font-size: 25px!important; line-height: 40px!important;}
+	.about .vision .hldr h3{ padding: 0px 10px 20px!important;}
+	.about .vision .hldr h4 {font-size: 22px!important; line-height: 37px!important;}
+	.banner .hldr article .hero .hero-list li a{ font-size: 20px!important}
+	.acc .top h4 a { font-size: 20px!important;}
+
+	/*======EOFFonts======*/
+
+
+	/*=====Padding=====*/
+	.pad-70 { padding-left: 0px!important;}
+	.home .sec-1 .home-carousel article { padding: 30px 20px!important;}
+	.benchmarks .top h3 { padding: 20px 20px 10px!important}
+	.benchmarks .content, .about .benchmarks .top { padding: 20px!important}
+	.circle--sec .main-hldr > article { padding: 50px 20px!important;}
+	.home .sec-4 .main-hldr .main-list > li:first-child { padding: 20px 25px 0px!important;}
+	.news-list .main-hldr > article .main-list > li .item aside { padding-left: 0px!important;}
+	.tech .sec-blue-float .main-hldr > aside .temp-hldr { padding: 20px 15px!important;}
+	.privacy .sec-2 .wrp { padding: 30px 0px 75px!important;}
+
+	/*=====EOFPadding=====*/
+
+
+
+	/*=====width && Height=====*/
+	.home .sec-1 .home-carousel aside{ height: auto!important;}
+	.benchmarks .content .parent .children:first-of-type { width: 100%!important; text-align: center!important; border-right: 0px!important; padding: 0px 20px!important;}
+	.benchmarks .content .parent .children:last-of-type { width: 100%!important; text-align: center!important; padding: 0px 20px!important;}
+	.sec-blue-float .main-hldr > article .hldr aside .play-hldr { max-width: 80px!important; height: 80px!important;}
+	/*.sec-blue-float .main-hldr > article .hldr aside .play-hldr img { width: 30px!important;}*/
+	.circle--sec .main-hldr > article ul li, .about .circle--sec .main-hldr > article ul li { width: 100%!important;}
+	.circle--sec .main-hldr > article ul li .item .main-circle  { max-width: 190px!important; height: 190px!important;}
+	.home .sec-4 .main-hldr .main-list > li:first-child .strife { width: 60px}
+	.home .sec-4 .main-hldr .main-list > li:last-child ul li { width: 100%!important; margin-bottom: 25px;}
+	.home .sec-4 .main-hldr .main-list > li:last-child ul li:last-child { margin-bottom: 0px!important}
+	footer .main-hldr > article .main-list > li{ width: 100%!important;}
+	footer .main-hldr > article aside  {width: 65px!important}
+	.about .vision .hldr .cont{ max-width: 100%!important;}
+	.orca-loc .top .main-parent .right { width: 100%!important; max-width: 400px!important; padding-left: 0px!important; padding: 0px 20px!important;}
+	.faqs .sec-2 .hldr article ul li .item aside .img-hldr img { max-width: 132px!important; width: 100%!important;}
+	.video .main-hldr > article .iframe-hldr iframe { height: 220px!important;}
+	.services .circle--sec .main-hldr > article ul li{ width: 100%!important;}
+	.circle--sec .main-hldr > article ul li .item .img-hldr img{ max-width: 132px!important; width: 100%!important;}
+	.privacy .banner .hldr article .hero .hero-list li  {width: 100%!important; padding-right: 0px!important;}
+	.privacy .banner .hldr article .hero .hero-list li::after { display: none!important;}
+	/*=====EOFWidth=====*/
+
+
+
+
+
+	/*=====OTHERS=====*/
+	
+	.circle--sec .main-hldr > article ul{ margin-top: 70px!important;}
+	.circle--sec .main-hldr > article .sliding-letters { font-size: 50px!important; line-height: 40px!important;}
+	footer .main-hldr > article .main-list > li input[type="checkbox"] { position: absolute; z-index: 3; top: 0; left: 0;}
+	footer .main-hldr > article .main-list > li label { padding-left: 35px!important;}
+	footer .main-hldr > article .main-list > li:last-child ul li { position: relative;}
+	footer .main-hldr > article .main-list > li input[type="submit"] { padding: 10px 40px!important; width: 100%!important;}
+	.cfooter { margin-top: 20px;}
+	.cfooter li:first-child { padding-right: 0px!important;}
+	.cfooter li:first-child::after { display: none!important;}
+	.follow ul li:first-child img{ display: none;}
+	.follow ul li:first-child h5{ display: block;}
+	.follow { width: 100%!important; position: relative!important; padding: 0px 20px 20px;}
+	.follow ul { padding: 0px!important; position: relative!important;}
+	.follow ul li { width: 100%!important; margin-bottom: 20px; padding-bottom: 0px!important;}
+	.follow ul li:last-child { margin-bottom: 0px!important;}
+	.about .vision .hldr .quote-right, .about .vision .hldr .quote-left { display: none!important;}
+	.about .circle--sec .main-hldr > article ul li:nth-last-child(2) { margin-bottom: 70px!important;}
+	.about .circle--sec .main-hldr > article ul li:last-child { margin-bottom: 0px!important}
+	.circle--sec .main-hldr > article ul li .item article h4 { margin-bottom: 10px!important;}
+	.about .circle--sec .main-hldr > aside, .orca-loc .top .main-parent .right aside::after { display: none!important;}
+	.news-list .main-hldr > article .main-list > li .item aside::after, .tech .sec-blue-float .main-hldr > aside .temp-hldr::before, .tech .sec-blue-float .main-hldr > aside .temp-hldr::after, .tech .sec-blue-float .main-hldr > aside .temp-hldr .item ul li::after, .tech .sec-blue-float .main-hldr > aside .temp-hldr .item ul li::before { display: none!important}
+	.tech .sec-blue-float .main-hldr > aside .temp-hldr { border: 1px solid #fff!important;}
+	.tech .sec-blue-float .main-hldr > aside .temp-hldr .item ul li { padding: 15px 0px!important; text-align: center!important}
+	.banner .hldr article .hero p { margin-top: 10px!important;}
+	.services .circle--sec .blue-rec { display: none!important;}
+
+
+	/*=====EOFOTHERS=====*/
+
+
+
+	/*=====BANNER=====*/
+
+	/*=====EOFBANNER=====*/
+
+
+
+}
