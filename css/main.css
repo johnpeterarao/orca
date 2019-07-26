@@ -1466,18 +1466,18 @@ header {
   margin-top: -75px; }
 
 .back-to-tp {
-  text-align: center;
   position: absolute;
   bottom: 20px;
-  padding: 5px 10px;
-  border: 1px solid #1dbfd8;
   z-index: 2; }
+  .back-to-tp i {
+    margin-right: 10px; }
   .back-to-tp a {
     font-family: "akzidenz-grotesk_bqregular", Arial, sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     color: #1dbfd8;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: bold; }
 
 .iframe-hldr iframe {
   width: 100%; }
@@ -1660,7 +1660,7 @@ header {
         background: #fff;
         z-index: 2;
         min-height: 1300px;
-        padding-bottom: 102px; }
+        padding-bottom: 60px; }
       .privacy .sec-2 .wrp .main-hldr > aside {
         background: #1a1e1f;
         width: 400px;

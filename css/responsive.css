@@ -362,6 +362,7 @@
 	.services .circle--sec .main-hldr > article ul { margin-top: 60px!important;}
 	.privacy .sec-2 .wrp .main-hldr > aside, .privacy .sec-2 .wrp .main-hldr .box-blue { display: none!important;}
 	.back-to-tp { left: 50%!important; transform: translate(-50%, 0)!important;}
+	.privacy footer { margin-top: 0px!important;}
 
 	/*=====EOFOTHERS=====*/
 
@@ -412,7 +413,8 @@
 	.home .sec-4 .main-hldr .main-list > li:first-child { padding: 20px 25px 0px!important;}
 	.news-list .main-hldr > article .main-list > li .item aside { padding-left: 0px!important;}
 	.tech .sec-blue-float .main-hldr > aside .temp-hldr { padding: 20px 15px!important;}
-	.privacy .sec-2 .wrp { padding: 30px 0px 75px!important;}
+	.privacy .sec-2 .wrp { padding: 30px 0px 0px!important;}
+	.privacy footer { padding-top: 35px!important;}
 
 	/*=====EOFPadding=====*/
 
