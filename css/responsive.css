@@ -239,7 +239,7 @@
 	.tech .sec-blue-float .main-hldr > aside .temp-hldr .item ul { transform: translate(0, 0)!important;}
 	.video .main-hldr .blue-rec, .services .sec-blue-float .img-frame::before, .services .sec-blue-float .img-frame span:first-of-type, .services .sec-blue-float .img-frame::after, .services .sec-blue-float .img-frame span:last-of-type { display: none!important;}
 	.home .sec-blue-float.animated .main-hldr > article .hldr article .extended-line { display: none!important;}
-
+	.services .circle--sec .blue-rec { top: -40px!important; }
 	/*=====EOFOTHERS=====*/
 
 

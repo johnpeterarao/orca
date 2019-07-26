@@ -487,6 +487,37 @@
 
   </script>
 
+
+
+  <script type="text/javascript">
+    /*new script 7/26/2019*/
+
+    $(function(){
+      var circleList =  $('.circle--sec .main-hldr > article ul > li');
+      
+
+      for (i = 0; i < circleList.length; i++){
+        $(circleList[i]).css("animation-delay" , (i / 3) + 's');
+      }
+
+
+      var homeWorking = $('.home .sec-4 .main-hldr .main-list > li');
+      console.log(homeWorking.length);
+
+      for (i = 0; i < homeWorking.length; i++){
+        $(homeWorking[i]).css("animation-delay", (i / 3) + 's');
+      }
+
+
+
+      
+     
+    });
+
+
+  </script>
+
+
  <script src="js/main.js"></script>
 </body>
 

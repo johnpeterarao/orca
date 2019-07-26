@@ -139,11 +139,11 @@ input, select, textarea, button {
   font-family: "akzidenz-grotesk_bqregular", Arial, sans-serif; }
 
 /* ANIMATION */
-.slide-down, .home .sec-1 .home-carousel .owl-item.active .hero-title, .home .sec-blue-float.animated .main-hldr > article .hldr article h3, .home .circle--sec.animated .main-hldr > article h3, .home .circle--sec.animated .main-hldr > article p, .home .circle--sec.animated .main-hldr > article ul li:nth-child(even), .home .sec-4.animated .main-hldr .main-list > li:nth-child(even), .about .vision.animated .hldr h3, .about .sec-blue-float.animated .main-hldr > article .hldr article h3, .about .circle--sec.animated .main-hldr > article ul li:nth-child(even), .services .circle--sec.animated .main-hldr > article ul li:nth-child(odd), .tech .video.animated .main-hldr article h3, .facilities .sec-blue-float.animated .main-hldr > article .fac-list li .img-parent, .facilities .orca-loc.animated .top .det-list, .facilities .orca-loc.animated .top .main-parent .left h3, .banner.active .hldr article .hero h3 {
+.slide-down, .home .sec-1 .home-carousel .owl-item.active .hero-title, .home .sec-blue-float.animated .main-hldr > article .hldr article h3, .home .circle--sec.animated .main-hldr > article h3, .home .circle--sec.animated .main-hldr > article p, .about .vision.animated .hldr h3, .about .sec-blue-float.animated .main-hldr > article .hldr article h3, .tech .video.animated .main-hldr article h3, .facilities .sec-blue-float.animated .main-hldr > article .fac-list li .img-parent, .facilities .orca-loc.animated .top .det-list, .facilities .orca-loc.animated .top .main-parent .left h3, .banner.active .hldr article .hero h3 {
   animation: 1s slide-down ease-in-out forwards;
   -webkit-animation: 1s slide-down ease-in-out forwards; }
 
-.slide-up, header .menu-hldr.active ul li, .home .sec-1 .home-carousel .owl-item.active p, .home .sec-blue-float.animated .main-hldr > article .hldr article h2, .home .sec-blue-float.animated .main-hldr > article .hldr article p, .home .sec-blue-float.animated .main-hldr > article .hldr aside .play-hldr .fd-top, .home .sec-blue-float.animated .main-hldr > article .hldr aside .play-hldr::after, .home .circle--sec.animated .main-hldr > article ul li:nth-child(odd), .home .sec-4.animated .main-hldr .main-list > li:nth-child(odd), .about .vision.animated .hldr h4, .about .sec-blue-float.animated .main-hldr > article .hldr article h2.font-36, .about .sec-blue-float.animated .main-hldr > article .hldr article p, .about .circle--sec.animated .main-hldr > article ul li:nth-child(odd), .services .sec-blue-float.animated .main-hldr > article .hldr article h2, .services .sec-blue-float.animated .main-hldr > article .hldr article p, .services .circle--sec.animated .main-hldr > article ul li:nth-child(even), .tech .sec-blue-float.animated .main-hldr > article .hldr article h2, .tech .sec-blue-float.animated .main-hldr > article .hldr article p, .tech .sec-blue-float.animated .main-hldr > aside .temp-hldr .item ul li, .tech .video.animated .main-hldr article .iframe-hldr, .facilities .sec-blue-float.animated .main-hldr > article .fac-list li p, .news-u .news-list.animated .main-list > li, .faqs .sec-2.animated .hldr article ul li, .banner.active .hldr article .hero p, .banner.active .hldr article .hero h5, .banner.active .hldr article .hero .hero-list {
+.slide-up, header .menu-hldr.active ul li, .home .sec-1 .home-carousel .owl-item.active p, .home .sec-blue-float.animated .main-hldr > article .hldr article h2, .home .sec-blue-float.animated .main-hldr > article .hldr article p, .home .sec-blue-float.animated .main-hldr > article .hldr aside .play-hldr .fd-top, .home .sec-blue-float.animated .main-hldr > article .hldr aside .play-hldr::after, .home .circle--sec.animated .main-hldr > article ul li, .home .sec-4.animated .main-hldr .main-list > li, .about .vision.animated .hldr h4, .about .sec-blue-float.animated .main-hldr > article .hldr article h2.font-36, .about .sec-blue-float.animated .main-hldr > article .hldr article p, .about .circle--sec.animated .main-hldr > article ul li, .services .sec-blue-float.animated .main-hldr > article .hldr article h2, .services .sec-blue-float.animated .main-hldr > article .hldr article p, .services .circle--sec.animated .main-hldr > article ul li, .tech .sec-blue-float.animated .main-hldr > article .hldr article h2, .tech .sec-blue-float.animated .main-hldr > article .hldr article p, .tech .sec-blue-float.animated .main-hldr > aside .temp-hldr .item ul li, .tech .video.animated .main-hldr article .iframe-hldr, .facilities .sec-blue-float.animated .main-hldr > article .fac-list li p, .news-u .news-list.animated .main-list > li, .faqs .sec-2.animated .hldr article ul li, .banner.active .hldr article .hero p, .banner.active .hldr article .hero h5, .banner.active .hldr article .hero .hero-list {
   animation: 1s slide-up ease-in-out forwards;
   -webkit-animation: 1s slide-up ease-in-out forwards; }
 
@@ -409,10 +409,6 @@ header {
     bottom: 80px;
     width: 100%;
     left: 0; }
-  .home .circle--sec.animated .main-hldr > article ul li:nth-child(odd) {
-    animation-delay: 0.5s; }
-  .home .circle--sec.animated .main-hldr > article ul li:nth-child(even) {
-    animation-delay: 0.5s; }
   .home .sec-4 .main-hldr {
     padding: 70px 30px;
     background: #1a1e1f;
@@ -602,74 +598,63 @@ header {
   background: url(../images/services-banner.jpg);
   background-size: cover;
   background-attachment: fixed; }
-.services .sec-blue-float .main-hldr > article {
-  min-height: 768px; }
-  .services .sec-blue-float .main-hldr > article .bg-img {
-    background: url(../images/services-op.png);
-    background-size: cover;
-    background-attachment: fixed; }
-    .services .sec-blue-float .main-hldr > article .bg-img .overlay {
-      width: 100%; }
-  .services .sec-blue-float .main-hldr > article .hldr article {
-    padding-top: 53px;
-    padding-left: 90px;
+.services .sec-blue-float {
+  overflow: hidden;
+  /* .img-frame::before { top: 33px; content: ''; width: 2px; background: $white; position: absolute; bottom: 33px; left: 22px; z-index: 2;}
+  .img-frame::after { top: 33px; content: ''; width: 2px; background: $white; position: absolute; bottom: 33px; right: 22px; z-index: 2;} */ }
+  .services .sec-blue-float .main-hldr > article {
+    min-height: 768px; }
+    .services .sec-blue-float .main-hldr > article .bg-img {
+      background: url(../images/services-op.png);
+      background-size: cover;
+      background-attachment: fixed; }
+      .services .sec-blue-float .main-hldr > article .bg-img .overlay {
+        width: 100%; }
+    .services .sec-blue-float .main-hldr > article .hldr article {
+      padding-top: 53px;
+      padding-left: 90px;
+      width: 100%;
+      padding-right: 170px; }
+      .services .sec-blue-float .main-hldr > article .hldr article .stripe-hldr {
+        position: absolute;
+        transform: rotate(-90deg);
+        top: 0;
+        left: 30px; }
+      .services .sec-blue-float .main-hldr > article .hldr article h2, .services .sec-blue-float .main-hldr > article .hldr article p {
+        opacity: 0; }
+  .services .sec-blue-float .img-frame {
+    max-width: 540px;
+    height: 485px;
     width: 100%;
-    padding-right: 170px; }
-    .services .sec-blue-float .main-hldr > article .hldr article .stripe-hldr {
+    top: 24%;
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    /* span:first-of-type {     height: 2px; background: #fff; position: absolute; display: block; top: 33px; z-index: 2; left: 24px; right: 24px; } */
+    /* span:last-of-type { height: 2px; background: #fff; position: absolute; display: block; bottom: 33px; z-index: 2; left: 24px; right: 24px; } */ }
+    .services .sec-blue-float .img-frame span {
       position: absolute;
-      transform: rotate(-90deg);
-      top: 0;
-      left: 30px; }
-    .services .sec-blue-float .main-hldr > article .hldr article h2, .services .sec-blue-float .main-hldr > article .hldr article p {
+      border: 1px solid #fff;
+      top: 33px;
+      left: 24px;
+      bottom: 33px;
+      right: 24px;
+      z-index: 2;
+      transform: translate(0, -400px);
       opacity: 0; }
-.services .sec-blue-float .img-frame {
-  max-width: 540px;
-  height: 485px;
-  width: 100%;
-  top: 24%;
-  position: absolute;
-  right: 0;
-  z-index: 2; }
-  .services .sec-blue-float .img-frame span:first-of-type {
-    height: 2px;
-    background: #fff;
-    position: absolute;
-    display: block;
-    top: 33px;
-    z-index: 2;
-    left: 24px;
-    right: 24px; }
-  .services .sec-blue-float .img-frame img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%; }
-  .services .sec-blue-float .img-frame span:last-of-type {
-    height: 2px;
-    background: #fff;
-    position: absolute;
-    display: block;
-    bottom: 33px;
-    z-index: 2;
-    left: 24px;
-    right: 24px; }
-.services .sec-blue-float .img-frame::before {
-  top: 33px;
-  content: '';
-  width: 2px;
-  background: #fff;
-  position: absolute;
-  bottom: 33px;
-  left: 22px;
-  z-index: 2; }
-.services .sec-blue-float .img-frame::after {
-  top: 33px;
-  content: '';
-  width: 2px;
-  background: #fff;
-  position: absolute;
-  bottom: 33px;
-  right: 22px;
-  z-index: 2; }
+    .services .sec-blue-float .img-frame img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+    .services .sec-blue-float .img-frame aside {
+      opacity: 0;
+      transform: translate(400px, 0); }
+.services .sec-blue-float.animated .img-frame span {
+  animation: 1s box-down ease-in-out forwards;
+  -webkit-animation: 1s box-down ease-in-out forwards; }
+.services .sec-blue-float.animated .img-frame aside {
+  animation: 1s box-left ease-in-out forwards;
+  -webkit-animation: 1s box-left ease-in-out forwards; }
 .services .circle--sec {
   position: relative;
   z-index: 2; }
@@ -680,7 +665,7 @@ header {
     position: absolute;
     right: 75px;
     z-index: 2;
-    top: -40px; }
+    top: -600px; }
   .services .circle--sec .main-hldr > article {
     background: #fff;
     position: relative;
@@ -810,6 +795,28 @@ header {
     .facilities .sec-blue-float .main-hldr > article .fac-list li .sites {
       width: 100%;
       opacity: 0; }
+      .facilities .sec-blue-float .main-hldr > article .fac-list li .sites .box1 {
+        width: 24.80%;
+        height: 14.65%;
+        position: absolute;
+        top: 6.45%;
+        left: 7.687%; }
+      .facilities .sec-blue-float .main-hldr > article .fac-list li .sites .box2 {
+        width: 28.80%;
+        height: 14.24%;
+        top: 45.83%;
+        right: 9.790%;
+        position: absolute; }
+      .facilities .sec-blue-float .main-hldr > article .fac-list li .sites .box3 {
+        width: 28.04%;
+        height: 14.51%;
+        top: 66.66%;
+        left: 6.93%;
+        position: absolute; }
+      .facilities .sec-blue-float .main-hldr > article .fac-list li .sites .box-trig a {
+        position: absolute;
+        height: 100%;
+        width: 100%; }
     .facilities .sec-blue-float .main-hldr > article .fac-list li:first-child {
       width: 40%; }
     .facilities .sec-blue-float .main-hldr > article .fac-list li:last-child {
@@ -2078,6 +2085,20 @@ footer {
     opacity: 1; }
   to {
     width: 100%;
+    opacity: 1; } }
+@keyframes box-down {
+  from {
+    transform: translate(0, -400px);
+    opacity: 0; }
+  to {
+    transform: translate(0, 0);
+    opacity: 1; } }
+@keyframes box-left {
+  from {
+    transform: translate(400px, 0);
+    opacity: 0; }
+  to {
+    transform: translate(0, 0);
     opacity: 1; } }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   /* CLASS GO HERE */ }

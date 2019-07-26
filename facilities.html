@@ -115,6 +115,9 @@
 
                     <li>
                       <aside class="sites">
+                        <div class="box1 box-trig"><a href="#caloocan"></a></div>
+                        <div class="box2 box-trig"><a href="#taguig"></a></div>
+                        <div class="box3 box-trig"><a href="#alabang"></a></div>
                         <img src="images/orca-sites.png">
                       </aside>
                     </li>
@@ -497,7 +500,7 @@
       });
 
 
-      $('.facilities .hero .hero-list li a[href*="#"]:not([href="#"])').click(function() {
+      $('.facilities .hero .hero-list li a[href*="#"]:not([href="#"]), .facilities .sec-blue-float .main-hldr > article .fac-list li .sites .box-trig a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
